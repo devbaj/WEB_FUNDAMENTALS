@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: bottom;
+    /* border: 1px dotted red; */
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div#world{
+    display: inline-block;
+    vertical-align: top;
+}
+div.row div{
+    width: 20px;
+    height: 20px;            
+    display: inline-block;
+    padding: 0;
+    margin: 0 0;
+    border: none;
+    /* border: 1px dotted red; */
+}
+div.brick{
+    background-color: blue;
+}
+div.coin{
+    background-image: url('creatorcoin.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15px 15px;
+}
+div.cherry{
+    background-image: url('cherry.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15px 15px;
+}
+div#pacman{
+    background-image: url('pacman.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    transform: rotate(0deg);
+}
+div#mrspacman{
+    background-image: url('pacman.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    transform: rotate(0deg);
+}
+div#ghost{
+    background-image: url('ghost.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+}
+div.empty{
+    background-color: none;
+}
+div#scorebox{
+    width: 15%;
+    height: 125px;
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    border: 10px solid blue;
+    text-align: center;
+}
+h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5%;
+    text-decoration: underline;
+}

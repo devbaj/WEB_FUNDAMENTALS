@@ -1,0 +1,20 @@
+--Create new repository on GitHub
+mkdir basic_repo
+cd basic_repo
+touch index.html
+touch styles.css
+touch main.js
+--add some stuff to html and css files
+git add index.html
+git add styles.css
+git add main.js
+git status
+git commit -m "created repo with index.html, main.js, styles.css"
+git remote add origin https://github.com/devbaj/basic_repo.git
+git push origin master
+--Check GitHub repository
+--Make some changes to html and css
+git add index.html
+git add styles.css
+git commit -m "update html and css"
+git push origin master

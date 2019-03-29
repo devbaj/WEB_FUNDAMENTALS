@@ -1,0 +1,22 @@
+cd /
+cd mnt/c/users/bjory/desktop
+mkdir test
+cd test
+touch index.html
+touch styles.css
+git init
+git add index.html
+git add styles.css
+git commit -m "created repo with index.html and styles.css"
+git log
+git add index.html
+git commit -m "update html"
+git add styles.css
+git commit -m "update css"
+git revert -n HEAD
+git revert -n de6cdf6
+git commit -m "revert css"
+git log
+git status
+git add styles.css
+git commit -m "update css"

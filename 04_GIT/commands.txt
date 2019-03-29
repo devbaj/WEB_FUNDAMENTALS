@@ -1,0 +1,6 @@
+$ pushd directory_name
+$ popd
+
+$ find . -name "part-of-filename*.txt"
+
+$ man <command name>

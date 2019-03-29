@@ -1,0 +1,147 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+/*    outline: red dotted 1px; */
+}
+.container{
+    max-width: 1200px;
+    min-height: 500px;
+    width:fit-content;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header{
+    background-color: #dddddd;
+}
+    .header h1{
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        display: inline-block;
+        vertical-align: text-top;
+        padding: 10px 10px;
+    }
+    .header h2{
+        font-weight: bold;
+        font-family: "helvetica neue", arial, sans-serif;
+        display: inline-block;
+        text-align: right;
+        margin-left: 500px;
+        padding-top: 20px;
+        vertical-align: text-top;
+    }
+.content{
+    background-image: radial-gradient(purple,black);
+}
+    .content h2{
+        background-image: linear-gradient(lightgrey,grey,lightgrey);
+        color: white;
+        font-weight: bold;
+        font-family: "helvetica neue", arial, sans-serif;
+        vertical-align: middle;
+        padding: 5px 0px 5px 5px;
+    }
+       .content .row {
+            height: 300px;
+            width: 1100px;
+            margin: 0 auto;
+        }
+.portrait{
+    width: 400px;
+    display: inline-block;
+    background-color: gray;
+    padding: 5px;
+    margin: 20px;
+}
+.about .item{
+    margin-right: 
+}
+.item{
+    display: inline-block;
+    min-width: 300px;
+    width: fit-content;
+    max-width: 600px;
+    margin: 20px 20px 40px;
+    background-image: linear-gradient(to right, white, lightgrey);
+    vertical-align: top;
+}
+    .item p{
+        padding: 10px;
+    }
+    .item img{
+        width: 300px;
+        margin: 0 auto;
+    }
+.techicons{
+    margin-bottom: 20px;
+}
+    .techicons img{
+        height: 50px;
+        width: 50px;
+        margin: 5px 10px;
+    }
+.content h3{
+    background-image: linear-gradient(lightgrey,grey,lightgrey);
+    font-family: "helvetica neue", arial, sans-serif;
+    color: white;
+    padding: 5px 0px 5px 5px;
+}
+p{
+    font-family: 'helvetica neue', arial, sans-serif;
+}
+.projects{
+    padding-left: 35px;
+}
+    .projects .item{
+        width: 300px;
+        background-image: linear-gradient(to right, white, gray);
+        padding-bottom: 30px;
+    }
+        .projects .item p{
+            padding: 10px;
+            height: 200px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+.sitelink{
+    padding: 10px;
+    background-color: darkgreen;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+    box-shadow: 2px 2px gray;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 0 100px 80px;
+}
+.footer{
+    background-color: #dddddd;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+    .footer img{
+        height: 20px;
+    }
+    .footer ul{
+        margin: 10px 300px;
+        align-content: center;
+    }
+        .footer .links{
+            margin-bottom: 10px;
+        }
+        .footer ul li{
+            display: inline-block;
+            padding: 5px;
+        }
+            .footer #contact li{
+                border-left: 1px solid black;
+            }
+            #contact li:first-of-type{
+                border: none;
+            }
+    .footer .links li{
+        font-style: italic;
+        text-decoration: underline;
+    }
+#contact{
+    margin-left: 400px;
+}

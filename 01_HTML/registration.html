@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>My Registration Form</h1>
+    <form>
+        <label>
+            First Name:<input type='text' name='first name'>
+        </label>
+        <label>
+            Last Name:<input type='text' name='last name'>
+        </label>
+        <label>
+            Email:<input type='text' name='email'>
+        </label>
+        <label>
+            Password:<input type='password' name='password'>
+        </label>
+        <label>
+            Confirm Password:<input type='password' name='pwconfirm'>
+        </label>
+        <label>
+            Birthday:<input type='date' name='birthdate'>
+        </label>
+        <p>Gender:</p>
+        <label>
+            Male<input type='radio' name='gender' value='male'>
+        </label>
+        <label>
+            Female<input type='radio' name='gender' value='female'>
+        </label>
+        <label>
+            Other<input type='radio' name='gender' value='other'>
+        </label>
+        <p>A short description of yourself:</p>
+        <textarea name='description'></textarea>
+        <p>Your Favorite Language:</p>
+        <select name='lang'>
+            <option value='javascript'>JavaScript</option>
+            <option value='c++'>C++</option>
+            <option value='python'>Python</option>
+        </select>
+        <input type='submit' value='Submit'>
+    </form>
+</body>
+</html>

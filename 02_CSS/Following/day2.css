@@ -1,0 +1,16 @@
+*{
+    border: 1px dotted red;
+}
+p{
+    color: blue;
+    background-color: pink;
+}
+#top{
+    font-family: sans-serif;
+    background-color: grey;
+    margin-top: 20px;
+    padding: 10px;
+}
+.bottom{
+    background-color: blue;
+}

@@ -1,0 +1,157 @@
+.container{
+    width: 970px;
+    background-color: #39588e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    .banner{
+        color: white;
+    }
+        .banner ul li{
+            display: inline-block;
+        }
+        .banner .rightbox{
+            display: inline-block;
+            margin-left: 150px;
+            width: 400px;
+        }
+            .rightbox a{
+                color: yellow;
+            }        
+            .searchbar{
+                padding: 20px;
+                background-color: darkslategray;
+                border-radius: 10px;
+                box-shadow: 2px 2px black;
+            }
+                input{
+                    margin: 10px auto;
+                    height: 40px;
+                    text-align: center;
+                    width: 200px;
+                    margin-left: 100px;  
+                }
+                .button{
+                    padding: 10px;
+                    background-color: navy;
+                    border: 2px solid gray;
+                    border-radius: 5px;
+                    color: white;
+                    height: 40px;
+                    width: 40px;
+                    text-align: left;
+                    margin-left: 10px;
+                }
+        .banner .textsize{
+            vertical-align: top;
+            margin-left: 100px;
+        }
+            .banner .textsize li{
+                padding: 5px;
+            }
+                .banner .textsize li:last-of-type{
+                    border-left: 2px solid black
+                }
+        .banner img{
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 10px;
+            width: 400px;
+        }
+        .banner .navbar{
+            font-size: 16pt;
+            background-color: #5979bb;
+            border-radius: 10px;
+            margin: 50px 50px;
+            box-shadow: 2px 2px black;
+        }
+            .navbar ul li{
+                margin-left: 30px;
+            }
+    .upper{
+        color: white;
+    }
+        .sidebar{
+            display: inline-block;
+            text-decoration: underline;
+        }
+            .sidebar li{
+                padding-top: 5px;
+                text-align: center;
+                list-style: inside;
+            }
+        .upper .intro{
+            display: inline-block;
+            width: 600px;
+            text-align: center;
+            vertical-align: top;
+            margin-left: 100px;
+            font-size: 11pt;
+        }
+        .upper .quote{
+            display: inline-block;
+            width: fit-content;
+            list-style: none;
+            font-style: italic;
+            color: gold;
+            text-align: center;
+            margin-bottom: 0;
+            padding: 0;
+        }
+            .quote li{
+                padding-bottom: 10px;
+                font-size: 14pt;
+            }
+        .upper h2{
+            font-weight: normal;
+            margin-top: 0px;
+        }
+    .lower{
+        background-color: white;
+        padding-left: 40px;
+    }
+        .lower .box{
+            display: inline-block;
+            width: 400px;
+            vertical-align: top;
+            margin-top: 10px;
+            margin-left: 20px;
+            border-top: 3px solid blue;
+            font-size: 11pt;
+        }
+            .lower .box h3{
+                text-align: center;
+                font-weight: bold;
+            }
+            .lower .box p{
+                text-align: center;
+                padding-left: 20px;
+                padding-right: 100px;
+            }
+            .lower .box ul{
+                text-align: center;
+                padding-right: 100px;
+            }
+                .lower .box ul li{
+                    color: lightblue;
+                }
+            .lower .box span{
+                color: lightblue;
+                font-size: 10pt;
+            }
+    .footer{
+        background-image: linear-gradient(#39588e,#757d9c)
+    }
+        .footer ul{
+            margin-top: 50px;
+        }
+            .footer ul li{
+                display: inline-block;
+                margin-left: 100px; 
+                color: #9595bd;
+            }
+        .footer p{
+            font-size: 10pt;
+            margin-left: 400px;
+            color: #9595bd;
+            padding-bottom: 10px;
+        }

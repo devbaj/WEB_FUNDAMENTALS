@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+
+    width: 970px;
+    background-color: beige;
+    text-align: center;
+}
+    .header{
+        width: 970px;
+        padding-top: 40px;
+        font-weight: bold;
+        font-size: 18pt;
+    }
+        .header *{
+            display: inline-block;
+        }
+        .header img{
+            height: 80px;
+            width: 150px;
+        }
+            img#cat-ninja{
+                margin-top: 0;
+            }
+        .header .img-bg{
+            background-color: white;
+            height: 80px;
+            width:150px;
+        }
+    .img-grid{
+
+        width: 970px;
+    }
+        .col{
+            width: 186px;
+            margin: 5px 0;
+            display: inline-block;
+        }
+            .col img{
+                width: 150px;
+                display: block;
+                border: 2px solid black;
+                margin: 5px;
+                padding: 10px;
+            }
+                .col img#domo-cat{
+                    padding: 21px 10px;
+                }
+            .red img{
+                background-color: #f36870;
+            }
+            .blue img{
+                background-color: #82b4ee;
+            }
